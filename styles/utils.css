@@ -1,0 +1,56 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.image-container-circular {
+    background-image: url("../imgs/utils/img_circle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vh;
+    height: 50vh;
+}
+
+.image-container-circular img {
+    position: relative;
+    height: 50vh !important;
+    width: auto !important;
+    margin-left: 4vh;
+    margin-top: 4vh;
+}
+
+.image-container {
+    background-image: url("../imgs/utils/border_square.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    width: auto;
+}
+
+.image-container img {
+    position: relative;
+    height: 39vh !important;
+    width: 39vh !important;
+    margin-left: 4vh;
+    margin-top: 4vh;
+}
+
+.button {
+    background-image: url("../imgs/utils/button_star.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5rem !important;
+    width: 10rem !important;
+}
+
+.button a {
+    position: relative;
+    top: 1.2rem;
+    left: 3.5rem;
+}
+
+div {
+    background-color: red;
+}
