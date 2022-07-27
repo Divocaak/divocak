@@ -1,9 +1,9 @@
     .carousel-page {
         width: 100vw;
         height: 100vh;
-        background-position: center;
+        background-position: 0 0;
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size:cover;
     }
     
     .carousel-content {
